@@ -9,7 +9,7 @@ public class DatabaseTables {
     }
 
     public static final String SQL_CREATE_TABLE_CANDIES = String.format(
-            "CREATE TABLE %s (%s INTEGER PRIMARY KEY, %s TEXT, %s TEXT)",
+            "CREATE TABLE %s (%s TEXT PRIMARY KEY, %s TEXT, %s TEXT)",
             Candy.TABLE_NAME,
             Candy.COLUMN_NAME,
             Candy.COLUMN_TASTE,

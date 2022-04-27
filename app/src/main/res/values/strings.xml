@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Persistence</string>
+    <string name="hint_color">Color</string>
+    <string name="hint_taste">Taste</string>
+    <string name="button_read">read</string>
+    <string name="button_write">write</string>
+    <string name="no_content">No content</string>
+    <string name="hint_name">Name</string>
+    <string name="title">Add a candy</string>
+    <string name="remove_all">Remove all</string>
 </resources>

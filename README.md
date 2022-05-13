@@ -40,7 +40,7 @@ I appvyn (MainActivity) finns det 3 textfält som går att ändra, 2 knappar fö
 
 <img src="app_initial.png" height="350px" >
 
-För att inte få några null-värden på primär nyckeln i databasen kollar appen om värdet på textfältet för namn är en tom String eller null. Skulle detta hända avbryter den processen att lägga in godisen i databasen. Detta sker i funktionen *MainActivity#addCandy()*, se kodblock nedan:
+För att inte få några null-värden på primär nyckeln i databasen kollar appen om värdet på textfältet för namn är en tom String. Skulle detta hända avbryter den processen att lägga in godisen i databasen. Detta sker i funktionen *MainActivity#addCandy()*, se kodblock nedan:
 
 ```Java
 private boolean addCandy() {
